@@ -37,6 +37,7 @@ public class AuthController {
 
         SignUpRes signUpRes = SignUpRes.builder()
             .token(token)
+            .isSuccess(true)
             .build();
 
         return new ResponseEntity<SignUpRes>(signUpRes, HttpStatus.CREATED);

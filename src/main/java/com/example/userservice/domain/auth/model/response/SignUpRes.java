@@ -9,4 +9,5 @@ import lombok.Setter;
 @Builder
 public class SignUpRes {
     private String token;
+    private boolean isSuccess;
 }
