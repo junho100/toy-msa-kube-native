@@ -26,6 +26,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./catalog-service
-          file: ./catalog-serviced/Dockerfile
+          file: ./catalog-service/Dockerfile
           push: true
           tags: bemodesty306/spring-catalog:latest
