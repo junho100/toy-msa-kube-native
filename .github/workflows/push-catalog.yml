@@ -4,7 +4,7 @@ on:
     branches:
       - "master"
     paths:
-      - catalog-service/**"
+      - catalog-service/*"
 jobs:
   build:
     runs-on: ubuntu-latest
