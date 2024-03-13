@@ -1,4 +1,4 @@
-name: cicd
+name: cicd user service
 on:
   push:
     branches: ["master"]
