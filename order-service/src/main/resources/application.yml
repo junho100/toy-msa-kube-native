@@ -15,5 +15,9 @@ spring:
           format_sql: true
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  cloud:
+    openfeign:
+      service:
+        catalog: ${CATALOG_API_URL}
     database: mysql
 jwt:
