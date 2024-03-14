@@ -14,5 +14,5 @@ WORKDIR /app
 
 COPY --from=builder build/libs/*.jar app.jar
 
-EXPOSE 9090
+EXPOSE 9092
 ENTRYPOINT java -jar app.jar
